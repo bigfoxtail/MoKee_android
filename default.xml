@@ -9,7 +9,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
-           fetch="http://android.googlesource.com"
+           fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r36" />
 
@@ -26,7 +26,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="MoKee/android_build" groups="pdk">
+  <project path="build" name="bigfoxtail/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -40,9 +40,9 @@
   <project path="bionic" name="MoKee/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="MoKee/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="dalvik" name="MoKee/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
+  <project path="dalvik" name="bigfoxtail/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
-  <project path="development" name="MoKee/android_development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="development" name="bigfoxtail/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
@@ -265,7 +265,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
-  <project path="external/skia" name="MoKee/android_external_skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="bigfoxtail/android_external_skia" groups="pdk,qcom_msm8x26" revision="refs/heads/cm-14.1" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk" remote="aosp" />
@@ -308,7 +308,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="MoKee/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="MoKee/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="bigfoxtail/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -367,10 +367,10 @@
   <project path="hardware/qcom/bt" name="MoKee/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="MoKee/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="MoKee/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="MoKee/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" />
+  <project path="hardware/qcom/gps" name="bigfoxtail/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/keymaster" name="MoKee/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk" />
-  <project path="hardware/qcom/wlan" name="MoKee/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" />
+  <project path="hardware/qcom/wlan" name="bigfoxtail/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" />
   <project path="hardware/ril" name="MoKee/android_hardware_ril" groups="pdk" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" remote="aosp" />
@@ -477,7 +477,7 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/core" name="MoKee/android_system_core" groups="pdk" />
+  <project path="system/core" name="bigfoxtail/android_system_core" groups="pdk" />
   <project path="system/extras" name="MoKee/android_system_extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
