@@ -316,7 +316,7 @@
   <project path="frameworks/minikin" name="ThirdProject/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="third" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="MoKee/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="bigfoxtail/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -411,6 +411,7 @@
   <project path="packages/apps/TV" name="MoKee/android_packages_apps_TV" />
   <project path="packages/apps/UnifiedEmail" name="MoKee/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="MoKee/android_packages_apps_WallpaperPicker" />
+  <project path="packages/apps/E-Ink-Launcher" name="bigfoxtail/E-Ink-Launcher" revision="main" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
   <project path="packages/inputmethods/LatinIME" name="ThirdProject/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="third" />
   <project path="packages/providers/BlockedNumberProvider" name="ThirdProject/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="third" />

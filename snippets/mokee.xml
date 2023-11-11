@@ -34,7 +34,7 @@
   <project path="packages/apps/Aegis" name="MoKee/android_packages_apps_Aegis" />
   <project path="packages/apps/AudioFX" name="MoKee/android_packages_apps_AudioFX" />
   <project path="packages/apps/MKCenter" name="MoKee/android_packages_apps_MKCenter" />
-  <project path="packages/apps/MKParts" name="MoKee/android_packages_apps_MKParts" />
+  <project path="packages/apps/MKParts" name="bigfoxtail/android_packages_apps_MKParts" />
   <project path="packages/apps/Eleven" name="MoKee/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" name="ThirdProject/android_packages_apps_Exchange" remote="third" />
   <project path="packages/apps/FMRadio" name="MoKee/android_packages_apps_FMRadio" />
@@ -54,7 +54,7 @@
   <project path="prebuilts/mksdk" name="MoKee/android_prebuilts_mksdk" clone-depth="1" />
   <project path="system/extras/su" name="MoKee/android_system_extras_su" />
   <project path="vendor/mk" name="bigfoxtail/android_vendor_mk" />
-  <project path="vendor/mksdk" name="MoKee/mk_platform_sdk" />
+  <project path="vendor/mksdk" name="bigfoxtail/mk_platform_sdk" />
   <project path="vendor/mk-priv" name="bigfoxtail/android_vendor_mk-priv" />
 
   <!-- MoKee Private additions -->
